@@ -98,13 +98,13 @@ pipeline {
                     bat "kubectl expose deployment weather-automation-deployment --type=NodePort --port=8000"
                 }
             }
-        }*/
+        }
         stage('Get URL and play with Application') {
             steps {
                 script {
                     bat "minikube service weather-automation-service"
                 }
             }
-        }
+        }*/
     }
 }
