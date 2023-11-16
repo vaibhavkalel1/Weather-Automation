@@ -75,7 +75,7 @@ pipeline {
                     bat "minikube status"
                 }
             }
-        }*/
+        }
         stage('Deploy to Kubernetes') {
             steps {
                 script {
@@ -91,7 +91,7 @@ pipeline {
                     bat "kubectl get svc"
                 }
             }
-        }
+        }*/
         stage('Expose NodePort 8000') {
             steps {
                 script {
