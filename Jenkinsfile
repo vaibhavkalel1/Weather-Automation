@@ -95,7 +95,7 @@ pipeline {
         stage('Expose NodePort 8000') {
             steps {
                 script {
-                    bat "kubectl expose deployment weather-automation-deployment --type=NodePort --port=8000"
+                    bat "kubectl expose deployment weather-app-deployment --type=NodePort --port=8000"
                 }
             }
         }
