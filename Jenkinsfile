@@ -7,7 +7,7 @@ pipeline {
                 git 'https://github.com/vaibhavkalel1/Weather-Automation.git'
             }
         }
-        /*stage('Build Docker Image') {
+        stage('Build Docker Image') {
             steps {
                 script {
                     bat "docker build -t vaibhavkalel/weather-automation ."
@@ -105,6 +105,6 @@ pipeline {
                     bat "minikube service weather-automation-service"
                 }
             }
-        }*/
+        }
     }
 }
