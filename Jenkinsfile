@@ -99,12 +99,12 @@ pipeline {
                 }
             }
         }
-        stage('Get URL and play with Application') {
+        /*stage('Get URL and play with Application') {
             steps {
                 script {
                     bat "minikube service weather-automation-service"
                 }
             }
-        }
+        }*/
     }
 }
