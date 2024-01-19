@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: weather-container
-        image: vaibhavkalel/weather-image1:latest  # Replace with your actual Docker image and tag
+        image: vaibhavkalel/weather-image1:1  # Replace with your actual Docker image and tag
         ports:
         - containerPort: 8000
