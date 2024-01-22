@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: c1
-        image: vaibhavkalel/wimage2  # Replace with your actual Docker image and tag
+        image: vaibhavkalel/wimage1  # Replace with your actual Docker image and tag
         ports:
         - containerPort: 8000
