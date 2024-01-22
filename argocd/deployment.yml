@@ -13,7 +13,7 @@ spec:
         app: weather-app
     spec:
       containers:
-      - name: weather-container
-        image: vaibhavkalel/weather-image1  # Replace with your actual Docker image and tag
+      - name: c1
+        image: vaibhavkalel/wimage1  # Replace with your actual Docker image and tag
         ports:
         - containerPort: 8000
